@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+*{
+  margin: 0;padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-div{
+  height: 100vh;
+  background-color: #a29bfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Catamaran', sans-serif;
+} 
+
+.center-div{
+  padding: 2vh 0;
+  text-align: center;
+  background-color: #ffffff;
+  height: 60vh;
+  width: 20vw;
+  border-radius: 1vw;
+}
+
+h3{
+  color: #ffffff;
+  font-size: 1.5em;
+  background-color: #fd9644;
+  margin-bottom: 1vh;
+}
+
+ol{
+  list-style: none;
+  text-align: left;
+}
+
+li{
+  margin: 0.5vh 0;
+  margin-left: 50px;
+}
+
+.text-area{
+  font-size: 1em;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #fd9644;
+  margin: 10px;
+}
+
+button{
+  background-color: #fd9644;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: 900;
+  border: none;
+  border-radius: 1em;
+  outline: none;
+  height: 2em;
+  width: 2em;
+}
+
+.add:hover{
+  background-color: #16ec64;
+}
+
+.remove:hover{
+  background-color: #ff3838;
 }
